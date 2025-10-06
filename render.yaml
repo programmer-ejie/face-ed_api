@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: face-yolo-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    plan: starter
+    autoDeploy: true
+    disk:
+      name: models-cache
+      mountPath: /app/embeddings
+      sizeGB: 5
