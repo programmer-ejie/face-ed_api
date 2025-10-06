@@ -1,0 +1,10 @@
+flask==3.0.3
+gunicorn==22.0.0
+numpy
+opencv-python-headless
+Pillow
+keras-facenet
+joblib
+tensorflow==2.15.0
+ultralytics
+mtcnn
