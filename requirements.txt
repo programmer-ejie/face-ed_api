@@ -12,3 +12,4 @@ google-api-python-client
 google-auth
 google-auth-httplib2
 google-auth-oauthlib
+gunicorn==21.2.0
